@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-pink: 320 100% 60%;
+  --neon-blue: 200 100% 60%;
+  
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --border: 240 3.7% 15.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.glow {
+  text-shadow: 0 0 10px hsl(var(--neon-blue)), 0 0 20px hsl(var(--neon-pink));
+}
+
+.card-glow-blue {
+  box-shadow: 0 0 20px hsla(var(--neon-blue), 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-glow-blue:hover {
+  box-shadow: 0 0 30px hsla(var(--neon-blue), 0.4);
+}
+
+.card-glow-pink {
+  box-shadow: 0 0 20px hsla(var(--neon-pink), 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-glow-pink:hover {
+  box-shadow: 0 0 30px hsla(var(--neon-pink), 0.4);
+}
