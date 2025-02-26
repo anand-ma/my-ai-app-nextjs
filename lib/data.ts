@@ -71,7 +71,7 @@ export const aiApps: AIApp[] = [
         "url": "https://city-explorer-nextjs.vercel.app/"
     },
     {
-        "name": "City Attractions",
+        "name": "City Attractions Grok",
         "description": "Gives tourist attractions in a city. Built using Twitter's Grok3. Has cool theme Changer functionality",
         "url": "https://city-attractions-grok.vercel.app/"
     },
@@ -79,5 +79,10 @@ export const aiApps: AIApp[] = [
         "name": "My AI apps List - nextjs - Netlify Hosted",
         "description": "List of my AI apps in one place, hosted in Netlify",
         "url": "https://my-ai-apps-list.netlify.app/"
+    },
+    {
+        "name": "City Attractions Grok - Netlify Hosted",
+        "description": "Gives tourist attractions in a city. Built using Twitter's Grok3. Has cool theme Changer functionality",
+        "url": "https://city-attractions-grok.netlify.app"
     }
 ];
