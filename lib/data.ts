@@ -84,5 +84,10 @@ export const aiApps: AIApp[] = [
         "name": "City Attractions Grok - Netlify Hosted",
         "description": "Gives tourist attractions in a city. Built using Twitter's Grok3. Has cool theme Changer functionality",
         "url": "https://city-attractions-grok.netlify.app"
+    },
+    {
+        "name": "Ingredient Analyzer",
+        "description": " Analyzes images of product ingredients using various AI models",
+        "url": "https://ingredient-analyzer-nextjs.vercel.app/"
     }
 ];
