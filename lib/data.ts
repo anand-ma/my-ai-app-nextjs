@@ -16,7 +16,7 @@ export const aiApps: AIApp[] = [
         "url": "https://code-explorer.streamlit.app/"
     },
     {
-        "name": "Code clarity Explorer",
+        "name": "Code Clarity Explorer",
         "description": "Any file in repo can be loaded in editor, or code snippets copy pasted, to analyse code more in depth with suggestions for improvements",
         "url": "https://code-clarity-explorer.vercel.app/"
     },
