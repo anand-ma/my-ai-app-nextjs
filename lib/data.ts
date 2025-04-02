@@ -11,6 +11,11 @@ export const aiApps: AIApp[] = [
         "url": "https://kaelvi-gen.streamlit.app/"
     },
     {
+        "name": "Code Explorer",
+        "description": "Input link of a single code file and get explaination in simple english, code explanation and use cases",
+        "url": "https://code-explorer.streamlit.app/"
+    },
+    {
         "name": "Alien PDF Chat",
         "description": "Ask Your Friendly Alien - PDF chat",
         "url": "https://alienudan-oru-pdf-uraiyadal.streamlit.app"
