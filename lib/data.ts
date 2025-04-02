@@ -16,6 +16,11 @@ export const aiApps: AIApp[] = [
         "url": "https://code-explorer.streamlit.app/"
     },
     {
+        "name": "Count Down Timer",
+        "description": "Timer that counts down to a specific time (not duration)",
+        "url": "https://time-to-go-countdown.lovable.app/"
+    },
+    {
         "name": "Alien PDF Chat",
         "description": "Ask Your Friendly Alien - PDF chat",
         "url": "https://alienudan-oru-pdf-uraiyadal.streamlit.app"
